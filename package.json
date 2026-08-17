@@ -1,0 +1,33 @@
+{
+  "name": "latest-semver",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Check dependency updates that stay within each package's current major version.",
+  "main": "latest-semver.js",
+  "bin": {
+    "latest-semver": "./latest-semver.js"
+  },
+  "files": [
+    "latest-semver.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --check latest-semver.js"
+  },
+  "keywords": [
+    "semver",
+    "dependencies",
+    "dependency-updates",
+    "cli",
+    "npm"
+  ],
+  "author": "Nick Deakin",
+  "license": "ISC",
+  "dependencies": {
+    "semver": "^7.8.5"
+  }
+}
