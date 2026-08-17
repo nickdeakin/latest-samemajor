@@ -32,7 +32,7 @@ latest-semver
 To check another package manifest, pass its path:
 
 ```sh
-latest-semver path/to/package.json
+node latest-semver path/to/package.json
 ```
 
 The command checks `dependencies` and `devDependencies`, skipping Git, URL,
