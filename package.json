@@ -1,14 +1,14 @@
 {
-  "name": "latest-semver",
+  "name": "@nickdeakin/latest-samemajor",
   "version": "1.0.0",
   "type": "module",
   "description": "Check dependency updates that stay within each package's current major version.",
-  "main": "latest-semver.js",
+  "main": "latest-samemajor.js",
   "bin": {
-    "latest-semver": "./latest-semver.js"
+    "latest-samemajor": "./latest-samemajor.js"
   },
   "files": [
-    "latest-semver.js",
+    "latest-samemajor.js",
     "README.md",
     "LICENSE"
   ],
@@ -16,10 +16,10 @@
     "node": ">=18"
   },
   "scripts": {
-    "test": "node --check latest-semver.js"
+    "test": "node --check latest-samemajor.js"
   },
   "keywords": [
-    "semver",
+    "same-major",
     "dependencies",
     "dependency-updates",
     "cli",
@@ -27,6 +27,17 @@
   ],
   "author": "Nick Deakin",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickdeakin/latest-samemajor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nickdeakin/latest-samemajor/issues"
+  },
+  "homepage": "https://github.com/nickdeakin/latest-samemajor#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "semver": "^7.8.5"
   }
